@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Stax_Tests' do
+  pod 'Stax', :path => '../'
+  
+  
+end
