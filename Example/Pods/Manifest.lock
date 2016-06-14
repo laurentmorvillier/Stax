@@ -1,0 +1,16 @@
+PODS:
+  - Stax (0.1.0)
+
+DEPENDENCIES:
+  - Stax (from `../`)
+
+EXTERNAL SOURCES:
+  Stax:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Stax: 35e218cffea26cf09f33bb54b8cd51830e12b58f
+
+PODFILE CHECKSUM: 2e68a10aeaf89da4ae6601aa683cd6be849bd009
+
+COCOAPODS: 1.0.0

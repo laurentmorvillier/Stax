@@ -1,0 +1,6 @@
+framework module Pods_Stax_Tests {
+  umbrella header "Pods-Stax_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

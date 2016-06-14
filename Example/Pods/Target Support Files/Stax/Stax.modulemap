@@ -1,0 +1,6 @@
+framework module Stax {
+  umbrella header "Stax-umbrella.h"
+
+  export *
+  module * { export * }
+}
