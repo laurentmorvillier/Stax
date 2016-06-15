@@ -8,33 +8,33 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+public class TableViewController: UITableViewController {
     
     var dataArray: NSArray = NSArray()
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func didReceiveMemoryWarning() {
+    public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     // MARK: Table View
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    public override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
     
-    func reload() {
+    public func reload() {
         tableView.reloadData()
     }
     
     // MARK: Alert views
     
-    func showAlert(title: String, message: String) {
+    public func showAlert(title: String, message: String) {
         
         let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
         let doneAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
@@ -43,7 +43,7 @@ class TableViewController: UITableViewController {
         
     }
     
-    func showAlert(message: String) {
+    public func showAlert(message: String) {
         
         let alert: UIAlertController = UIAlertController(title: message, message: "", preferredStyle: .Alert)
         let doneAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default, handler: nil)

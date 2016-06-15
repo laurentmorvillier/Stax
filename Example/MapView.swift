@@ -9,9 +9,9 @@
 import UIKit
 import MapKit
 
-class MapView : MKMapView {
+public class MapView : MKMapView {
     
-    func addAnnotation(coordinates: CLLocationCoordinate2D, name: String) {
+    public func addAnnotation(coordinates: CLLocationCoordinate2D, name: String) {
         
         let annotation: MKPointAnnotation = MKPointAnnotation()
         annotation.coordinate = coordinates
@@ -20,7 +20,7 @@ class MapView : MKMapView {
         
     }
     
-    func centerMap(coordinates: CLLocationCoordinate2D, span: MKCoordinateSpan) {
+    public func centerMap(coordinates: CLLocationCoordinate2D, span: MKCoordinateSpan) {
         
         let viewregion: MKCoordinateRegion = MKCoordinateRegion(center: coordinates, span: span)
         

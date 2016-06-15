@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		28C3789365B50CABE987CFF16D5B99C8 /* Stax-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B61A449C4FB0DDF90A6504FB1A1CD6 /* Stax-dummy.m */; };
 		3C56573DDE466D9324DCCCC61B41677A /* Pods-Stax_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A933822332B4D3BDE4107F06DD625B17 /* Pods-Stax_Tests-dummy.m */; };
-		4207B1014F90A2396354286CA1119007 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231CD990AA32E9D59F97F65CACF0E11E /* ReplaceMe.swift */; };
 		999DFFE12A8B57472EDFF05ED1A26DC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D4AA71918A75BADA6286F726C48CCCF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E1878EB7CF0290325BDBAB8003C7F0D0 /* Pods-Stax_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B27A977F92D55A52BCE4C6EC24AE59BB /* Pods-Stax_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		1C750B5993BEC7E14E4522D076D14270 /* Pods-Stax_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stax_Tests-resources.sh"; sourceTree = "<group>"; };
-		231CD990AA32E9D59F97F65CACF0E11E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		3159FD773014556211A5CD825FDD479A /* Pods-Stax_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Stax_Tests.modulemap"; sourceTree = "<group>"; };
 		32B61A449C4FB0DDF90A6504FB1A1CD6 /* Stax-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stax-dummy.m"; sourceTree = "<group>"; };
 		33369227D364F38AA4FBCFA6A0BC28D3 /* Pods-Stax_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stax_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 		852BA9C3AECCA6871339314C05BF9B81 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				231CD990AA32E9D59F97F65CACF0E11E /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -269,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4207B1014F90A2396354286CA1119007 /* ReplaceMe.swift in Sources */,
 				28C3789365B50CABE987CFF16D5B99C8 /* Stax-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
