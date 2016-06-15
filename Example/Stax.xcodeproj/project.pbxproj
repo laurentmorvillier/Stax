@@ -9,11 +9,6 @@
 /* Begin PBXBuildFile section */
 		07E875CC0FC228F7B06EBADB /* Pods_Stax_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4A82E0E5DFCD96B55D56C /* Pods_Stax_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C4D59B871D104E0600A5E90B /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D59B821D104E0600A5E90B /* CustomTableViewController.swift */; };
-		C4D59B881D104E0600A5E90B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D59B831D104E0600A5E90B /* MapView.swift */; };
-		C4D59B891D104E0600A5E90B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D59B841D104E0600A5E90B /* TableViewCell.swift */; };
-		C4D59B8A1D104E0600A5E90B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D59B851D104E0600A5E90B /* TableViewController.swift */; };
-		C4D59B8B1D104E0600A5E90B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D59B861D104E0600A5E90B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +19,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9DE7309DA2AEF18A1CD694D8 /* Pods-Stax_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stax_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stax_Tests/Pods-Stax_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A53D4EE79083283690A461D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C4D59B821D104E0600A5E90B /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
-		C4D59B831D104E0600A5E90B /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		C4D59B841D104E0600A5E90B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		C4D59B851D104E0600A5E90B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		C4D59B861D104E0600A5E90B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAB4A82E0E5DFCD96B55D56C /* Pods_Stax_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stax_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E827B28C8DB4323CFA0DB24A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,11 +102,6 @@
 		C4D59B751D1047C700A5E90B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C4D59B821D104E0600A5E90B /* CustomTableViewController.swift */,
-				C4D59B831D104E0600A5E90B /* MapView.swift */,
-				C4D59B841D104E0600A5E90B /* TableViewCell.swift */,
-				C4D59B851D104E0600A5E90B /* TableViewController.swift */,
-				C4D59B861D104E0600A5E90B /* ViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -241,11 +226,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D59B8B1D104E0600A5E90B /* ViewController.swift in Sources */,
-				C4D59B871D104E0600A5E90B /* CustomTableViewController.swift in Sources */,
-				C4D59B891D104E0600A5E90B /* TableViewCell.swift in Sources */,
-				C4D59B881D104E0600A5E90B /* MapView.swift in Sources */,
-				C4D59B8A1D104E0600A5E90B /* TableViewController.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

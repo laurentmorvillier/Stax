@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ViewController : UIViewController {
+public class ViewController : UIViewController {
     
     // MARK: Alert views
     
-    func showAlert(title: String, message: String) {
+    public func showAlert(title: String, message: String) {
         
         let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .Alert)
         let doneAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
@@ -21,7 +21,7 @@ class ViewController : UIViewController {
         
     }
     
-    func showAlert(message: String) {
+    public func showAlert(message: String) {
         
         let alert: UIAlertController = UIAlertController(title: message, message: "", preferredStyle: .Alert)
         let doneAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
