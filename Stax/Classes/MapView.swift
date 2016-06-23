@@ -9,15 +9,20 @@
 import UIKit
 import MapKit
 
+class ImagePointAnnotation: MKPointAnnotation {
+    var imageName: String!
+}
+
 public class MapView : MKMapView {
     
-    public func addAnnotation(coordinates: CLLocationCoordinate2D, name: String) {
+    public func addAnnotation(coordinates: CLLocationCoordinate2D, name: String) -> MKAnnotation {
         
         let annotation: MKPointAnnotation = MKPointAnnotation()
         annotation.coordinate = coordinates
         annotation.title = name
         self.addAnnotation(annotation)
         
+        return annotation
     }
     
     public func centerMap(coordinates: CLLocationCoordinate2D, span: MKCoordinateSpan) {

@@ -1,5 +1,5 @@
 PODS:
-  - Stax (0.1.0)
+  - Stax (0.1.4)
 
 DEPENDENCIES:
   - Stax (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Stax: 35e218cffea26cf09f33bb54b8cd51830e12b58f
+  Stax: 13c46ae58a8e0dde48a027e42efcbb530cef31c3
 
 PODFILE CHECKSUM: 2e68a10aeaf89da4ae6601aa683cd6be849bd009
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.0.1

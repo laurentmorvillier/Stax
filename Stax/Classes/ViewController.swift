@@ -22,12 +22,7 @@ public class ViewController : UIViewController {
     }
     
     public func showAlert(message: String) {
-        
-        let alert: UIAlertController = UIAlertController(title: message, message: "", preferredStyle: .Alert)
-        let doneAction: UIAlertAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
-        alert.addAction(doneAction)
-        presentViewController(alert, animated: true, completion: nil)
-        
+        self.showAlert("", message: message)
     }
     
 }

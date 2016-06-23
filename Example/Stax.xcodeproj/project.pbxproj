@@ -38,7 +38,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				C4D59B751D1047C700A5E90B /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -99,13 +98,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4D59B751D1047C700A5E90B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Stax_Tests" */;
 			buildPhases = (
-				881E0014D20532A4792F6B1D /* 📦 Check Pods Manifest.lock */,
+				881E0014D20532A4792F6B1D /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				1DDDD483EB92121D1703941F /* 📦 Embed Pods Frameworks */,
-				502A754E4EE03F4A16FA0DA5 /* 📦 Copy Pods Resources */,
+				1DDDD483EB92121D1703941F /* [CP] Embed Pods Frameworks */,
+				502A754E4EE03F4A16FA0DA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,14 +166,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DDDD483EB92121D1703941F /* 📦 Embed Pods Frameworks */ = {
+		1DDDD483EB92121D1703941F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,14 +181,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stax_Tests/Pods-Stax_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		502A754E4EE03F4A16FA0DA5 /* 📦 Copy Pods Resources */ = {
+		502A754E4EE03F4A16FA0DA5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,14 +196,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stax_Tests/Pods-Stax_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		881E0014D20532A4792F6B1D /* 📦 Check Pods Manifest.lock */ = {
+		881E0014D20532A4792F6B1D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,7 +36,7 @@ public class CustomTableViewController: ViewController, UITableViewDelegate, UIT
         return UITableViewCell()
     }
     
-    func reload() {
+    public func reload() {
         tableView.reloadData()
     }
     
