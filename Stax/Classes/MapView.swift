@@ -35,4 +35,15 @@ public class MapView : MKMapView {
         
     }
     
+    public func zoomMapBy(delta: Double) { // example: 0.5 to zoom in, 2 to zoom out
+        
+        var region:MKCoordinateRegion = self.region
+        var span:MKCoordinateSpan = self.region.span
+        span.latitudeDelta *= delta;
+        span.longitudeDelta *= delta;
+        region.span = span;
+        self.setRegion(region, animated: true)
+        
+    }
+    
 }

@@ -1,5 +1,5 @@
 PODS:
-  - Stax (0.1.4)
+  - Stax (0.1.5)
 
 DEPENDENCIES:
   - Stax (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Stax: 13c46ae58a8e0dde48a027e42efcbb530cef31c3
+  Stax: 7f76a26a8ee48eeb9fb3929a0992a660cbd178b2
 
 PODFILE CHECKSUM: 2e68a10aeaf89da4ae6601aa683cd6be849bd009
 

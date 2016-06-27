@@ -1,0 +1,36 @@
+// TODO
+- Licence check
+- Find a way to separate Examples from other classes
+
+
+- tuto http://useyourloaf.com/blog/creating-a-cocoapod/
+
+
+// IMPORTANT
+Don't forget to add public for funcs!
+
+// RELEASE A NEW VERSION
+
+- Change the version number in Stax.podspec
+- Make a git push
+- Make a git tag
+    git tag 0.1.0
+    git push origin 0.1.0
+- Push to cocoapods
+    pod trunk push
+
+...wait
+
+// ADD FILE
+- add the file
+- run 'pod install' in /Example (check if pod update works)
+
+// BUILD ERRORS
+
+'Swift is not supported for static libraries'
+-> see add file
+
+
+// CONCEPT
+
+- Mettre dans Examples des examples de code ou des morceaux non optimisé
