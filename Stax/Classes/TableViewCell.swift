@@ -8,42 +8,42 @@
 
 import UIKit
 
-public class TableViewCell : UITableViewCell {
+open class TableViewCell : UITableViewCell {
     
     
 }
 
-public class OneLabelCell : TableViewCell {
+open class OneLabelCell : TableViewCell {
     
     @IBOutlet weak var label: UILabel!
     
 }
 
-public class TwoLabelsCell : OneLabelCell {
+open class TwoLabelsCell : OneLabelCell {
     
     @IBOutlet weak var secondLabel: UILabel!
     
 }
 
-public class ThreeLabelsCell : TwoLabelsCell {
+open class ThreeLabelsCell : TwoLabelsCell {
     
     @IBOutlet weak var thirdLabel: UILabel!
     
 }
 
-public class OneLabelOneImageCell : OneLabelCell {
+open class OneLabelOneImageCell : OneLabelCell {
     
     @IBOutlet weak var firstImageView: UIImageView!
     
 }
 
-public class OneLabelOneSwitchCell : OneLabelCell {
+open class OneLabelOneSwitchCell : OneLabelCell {
     
     @IBOutlet weak var firstSwitch: UISwitch!
     
 }
 
-public class MagicCell : UITableViewCell {
+open class MagicCell : UITableViewCell {
     
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var secondLabel: UILabel!

@@ -8,27 +8,27 @@
 
 import UIKit
 
-public class TableViewController: UITableViewController {
+open class TableViewController: UITableViewController {
     
     var dataArray: NSArray = NSArray()
     
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    public override func didReceiveMemoryWarning() {
+    open override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     // MARK: Table View
     
-    public override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    open override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    public func reload() {
+    open func reload() {
         tableView.reloadData()
     }
     

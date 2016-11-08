@@ -13,9 +13,9 @@ class ImagePointAnnotation: MKPointAnnotation {
     var imageName: String!
 }
 
-public class MapView : MKMapView {
+open class MapView : MKMapView {
     
-    public func addAnnotation(coordinates: CLLocationCoordinate2D, name: String) -> MKAnnotation {
+    open func addAnnotation(_ coordinates: CLLocationCoordinate2D, name: String) -> MKAnnotation {
         
         let annotation: MKPointAnnotation = MKPointAnnotation()
         annotation.coordinate = coordinates
@@ -25,7 +25,7 @@ public class MapView : MKMapView {
         return annotation
     }
     
-    public func centerMap(coordinates: CLLocationCoordinate2D, span: MKCoordinateSpan) {
+    open func centerMap(_ coordinates: CLLocationCoordinate2D, span: MKCoordinateSpan) {
         
         let viewregion: MKCoordinateRegion = MKCoordinateRegion(center: coordinates, span: span)
         
@@ -35,7 +35,7 @@ public class MapView : MKMapView {
         
     }
     
-    public func zoomMapBy(delta: Double) { // example: 0.5 to zoom in, 2 to zoom out
+    open func zoomMapBy(_ delta: Double) { // example: 0.5 to zoom in, 2 to zoom out
         
         var region:MKCoordinateRegion = self.region
         var span:MKCoordinateSpan = self.region.span
