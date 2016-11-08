@@ -16,7 +16,7 @@ class MapKitExample {
         let geocoder: CLGeocoder = CLGeocoder()
         geocoder.geocodeAddressString(address, completionHandler: {(placemarks: [CLPlacemark]?, error: NSError?) -> Void in
             if (placemarks?.count > 0) {
-                let topResult: CLPlacemark = (placemarks?[0])!
+//                let topResult: CLPlacemark = (placemarks?[0])!
                 
                 //                if let location = topResult.location {
                 //                    self.area.latitude = location.coordinate.latitude

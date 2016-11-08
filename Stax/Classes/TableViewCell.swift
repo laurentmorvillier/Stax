@@ -43,7 +43,16 @@ public class OneLabelOneSwitchCell : OneLabelCell {
     
 }
 
+public class MagicCell : UITableViewCell {
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var secondLabel: UILabel!
 
+    @IBOutlet weak var firstImageView: UIImageView!
+
+    @IBOutlet weak var firstSwitch: UISwitch!
+
+}
 
 
 
